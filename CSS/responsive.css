@@ -1,0 +1,31 @@
+@media (max-width: 1890px){
+    #cards{
+        width: 80%;
+    }
+
+    #cards .card{
+        display: block;
+        background-color: white;
+        min-width: 18px; 
+        width: 17%;
+        height: 310px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 4px #999;
+        float: left;
+        margin: 1.4%;
+        
+        overflow: hidden;
+    }
+
+
+
+    /*BARRA LATERAL*/
+    #lateral{
+        width: 20%;
+    }
+
+    #lateral #login input[type="submit"],
+    #lateral #login input[type="reset"]{
+        padding: 0px;
+    }
+}

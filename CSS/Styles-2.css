@@ -37,10 +37,17 @@ body{
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+
+
+
+
+
 /*HEADER*/
-.wrap{
+#cabecera{
 	background-color: #000;
-	min-width: 1200px;
+	min-width: 200px;
 	width: 100%;
 	height: 70px;
 	margin: 0px auto;
@@ -49,13 +56,18 @@ body{
 
 }
 
+.wrap{
+	width: 80%;
+	margin: 0px auto;
+}
+
 .wrap #logo{
 	width: 200px;
 	height: 53px;
 	background-color: #37bcf9;
 	float: left;
 	margin: 8px;
-	margin-left: 180px;
+	margin-left: 0;
 	cursor: pointer;
 	overflow: hidden;
 	color: #fff;
@@ -130,8 +142,10 @@ body{
 }
 
 .wrap #menu {
+	float: right;
 	display: block;
-	margin-left: 755px;
+	width: 50%;
+	
 	height: 70px;
 }
 
@@ -140,10 +154,10 @@ body{
 	text-decoration: none;
 	font-size: 24px;
 	color: white;
-	float: left;
-	margin:15px;
+	float: right;
+	
 	margin-top: 23px;
-	margin-right: 28px;
+	margin-left: 6%;
 	letter-spacing: 1px;
 }
 
@@ -153,6 +167,16 @@ body{
 	transition: all 200ms;
 }
 
+
+
+
+
+
+
+
+
+/*BANNER*/
+
 #general section #banner{
 	font-family: bebas;
 	display: block;
@@ -160,7 +184,7 @@ body{
 	background-position: -200px -200px;
 	color: white;
 	font-size: 38px;
-	width: 1200px;
+	width: 80%;
 	height: 100px;
 	margin: 0px auto;
 	margin-top: 20px;
@@ -212,12 +236,20 @@ body{
 	}
 }
 
+
+
+
+
+
+
+
 /*CARDS*/
 
 #cards{
 	font-family: trebuchet;
 	color: #00538C;
-	width: 100%;
+	width: 70%;
+	margin: 0% auto;
 }
 
 #cards .card{
@@ -229,13 +261,13 @@ body{
 	border: 1px solid #ccc;
 	box-shadow: 0px 0px 4px #999;
 	float: left;
-	margin: 20px;
-	margin-top: 74px;
+	margin: 74px 0px 20px 65px;
+	
 	overflow: hidden;
 }
 
 #cards .card:first-child{
-	margin-left: 160px;
+	margin-left: 0px;
 }
 
 #cards .card .icon{
@@ -261,6 +293,7 @@ body{
 }
 
 #cards .card:hover{
+	cursor: pointer;
 	transition: all 400ms;
 	background-color: black;
 	color: white;
@@ -315,8 +348,8 @@ body{
 	width: 300px;
 	float: right;
 	margin: 40px;
-	margin-top: 100px;
-	margin-right: 155px;
+	margin-top: 50px;
+	margin-right: 11%;
 }
 
 #lateral h3{
@@ -426,6 +459,8 @@ body{
 #lateral #login input[type="submit"],
 #lateral #login input[type="reset"]{
 	display: block;
+	width: 37%;
+	height: 35px;
 	background: linear-gradient(to bottom, #3eb8e5 0%, #2ca0ca 100%);
 	font-family: trebuchet;
 	font-size: 16px;
@@ -444,8 +479,7 @@ body{
 
 #lateral #login input[type="submit"]:hover,
 #lateral #login input[type="reset"]:hover{
-	background: none;
-	background-color: #00EDFF;
+	background: #00EDFF;
 	color: black;
 	box-shadow: 0px 0px 4px #1A82ED inset;
 	transition: all 300ms;
@@ -458,6 +492,7 @@ body{
 	font-size: 14px;
 	color: #555;
 	font-weight: bold;
+	margin-top: 7px;
 	margin-left: 10px;
 	float: left;
 }
@@ -537,14 +572,19 @@ body{
 	transition: all 200ms;
 }
 
+
+
+
+
 /*INICIO DEL CUERPO*/
 #cuerpo{
 	font-family: trebuchet;
 	display: block;
-	width: 815px;
+	width: 55%;
 	margin: 50px;
-	margin-left:155px;
-	margin-top: 98px;
+	margin-left: 10%;
+	margin-right: 0;
+	margin-top: 50px;
 	float: left;
 }
 
@@ -617,17 +657,22 @@ body{
 	clear: both;
 }
 
+
+
+
+
 /*IR AL BLOG*/
 #ir_blog .ir_blog{
 	display: block;
-	width: 815px;
+	box-sizing: border-box; /*Esto es para que la caja no aumente de tamaño cuando se le agregan otras propiedades, como en el hover*/
+	width: 53%;
 	height: 100px;
 	background-color: white;
 	border: solid 2px #ccc;
 	float: left;
 	margin: 50px;
 	margin-top: 10px;
-	margin-left: 160px;
+	margin-left: 10%;
 	text-align: center;
 }
 
@@ -643,7 +688,7 @@ body{
 }
 
 #ir_blog .ir_blog:hover{
-	transition: all 300ms;
+	transition: all 500ms;
 	background-color: black;
 	color: white;
 	border-radius: 70px;
@@ -680,6 +725,12 @@ body{
 	}
 }
 
+
+
+
+
+
+
 /*FOOTER*/
 #footer{
 	display: block;
@@ -693,7 +744,7 @@ body{
 
 #footer .footer{
 	display: block;
-	width: 75%;
+	width: 85%;
 	height: auto;
 	margin: 0px auto;
 	margin-top: 45px;
@@ -714,11 +765,11 @@ body{
 	letter-spacing: 1px;
 }
 
-#footer .footer > div{
+#footer .footer .elementosFooter{
 	display: block;
 	float: left;
 	width: 30%;
-	margin-left: 55px;
+	margin-left: 30px;
 	overflow: hidden;
 }
 
@@ -736,7 +787,9 @@ body{
 }
 
 #footer #menu_footer ul li{
+	width: 70%;
 	height: 60px;
+	margin: 0px auto;
 	border-bottom: 1px solid #ccc;
 	line-height: 60px;
 	list-style: disc;
@@ -777,9 +830,8 @@ body{
 #footer #extra #browser{
 	width: 88%;
 	display: block;
-	margin: 0px auto;
-	margin-top: 10px;
-	margin-bottom: 70px;
+	margin: 10px 80px 70px;
+	
 }
 
 #footer #extra #browser img{
@@ -794,4 +846,5 @@ body{
 	font-family: arial, helvetica;
 	font-size: 14px;
 	margin-top: 20px;
+	text-align: center;
 }

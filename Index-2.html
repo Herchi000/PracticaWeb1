@@ -6,6 +6,7 @@
 		<title>Maquetación web avanzada</title>
 		<link rel="icon" type="favicon/x-icon" href="CSS/img/supertux.png"/>
 		<link rel="stylesheet" type="text/css" href="CSS/Styles-2.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/responsive.css"/>
 	</head>
 	<body>
 		<!--INICIO DE CABECERA-->
@@ -85,6 +86,7 @@
 				</div>
 			</section>
 			<!--FIN DE TARJETAS-->
+			<div class="clearfix"></div>
 			<!--BARRA LATERAL-->
 			<aside id="lateral">
 				<h3>BUSCAR</h3>
@@ -108,6 +110,7 @@
 						<input type="reset" value="Limpiar" name="limpiar">
 
 						<a href="#">Registrate aquí</a>
+						<div class="clearfix"></div>
 						<a href="#">¿Has olvidado tu contraseña?</a>
 					</form>
 				</div>
@@ -134,7 +137,7 @@
 				</div>
 			</aside>
 			<!--FIN DE BARRA LATERAL-->
-			<!--INICIO DEL CUEROI CENTRAL-->
+			<!--INICIO DEL CUERPO CENTRAL-->
 			<section id="cuerpo">
 				<h2>ULTIMOS ARTICULOS</h2>
 				<div class="articulos">
@@ -194,7 +197,7 @@
 		<!--INICIO DE PIE DE PAGINA-->
 		<footer id="footer">
 			<div class="footer">
-				<nav id="menu_footer">
+				<nav id="menu_footer" class="elementosFooter">
 
 					<h4>MENÚ</h4>
 
@@ -214,12 +217,12 @@
 					</ul>
 				</nav>
 
-				<div id="location">
+				<div id="location" class="elementosFooter">
 					<h4>¿DÓNDE ESTAMOS?</h4>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.5806012433704!2d-58.3828805462559!3d-34.6018527598961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1ses!2sar!4v1584404746754!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 				</div>
 
-				<div id="extra">
+				<div id="extra" class="elementosFooter">
 					<h4>DESARROLADO CON</h4>
 					<p id="html5">
 						<img src="CSS/img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="HTML5"/>

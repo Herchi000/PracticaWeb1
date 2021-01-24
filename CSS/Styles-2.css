@@ -403,7 +403,7 @@ body{
 	border: none;
 	border-left: 1px solid #ccc;
 	color: #555;
-	padding-left: 7px; 
+	padding-left: 2%; 
 }
 
 #lateral #login{
@@ -755,7 +755,7 @@ body{
 	font-size: 40px;
 	color: black;
 	background-color: #ccc;
-	width: 320px;
+	width: 340px;
 	height: 50px;
 	border-radius: 5px 5px 5px 5px;
 	text-align: center;
@@ -827,19 +827,25 @@ body{
 	margin-bottom: 10px;
 }
 
-#footer #extra #browser{
-	width: 88%;
-	display: block;
-	margin: 10px 80px 70px;
+body #footer #extra #browser{
+	width: 75%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 10px auto;
+	
+	
 	
 }
 
 #footer #extra #browser img{
 	display: block;
-	width: 45px;
+	width: 44px;
+	height: 44px;
 	float: left;
-	margin: 0px 2px;
+	margin: 0px 4px;
 }
+
 
 #footer #extra #autor{
 	color: white;

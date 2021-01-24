@@ -28,4 +28,25 @@
     #lateral #login input[type="reset"]{
         padding: 0px;
     }
+
+
+
+
+    /*FOOTER*/
+    #footer .footer h4{
+        font-size: 31px;
+        width: 70%;
+       
+    }
+
+
+    #footer #extra #browser img{
+        margin: 0px 3px;
+    }
+
+    #footer #location iframe{
+        
+        width: 70%;
+        
+    }
 }

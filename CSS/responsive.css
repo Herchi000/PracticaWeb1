@@ -12,7 +12,7 @@
         border: 1px solid #ccc;
         box-shadow: 0px 0px 4px #999;
         float: left;
-        margin: 1.4%;
+        margin: 40px 1.7% 10px;
         
         overflow: hidden;
     }
@@ -22,6 +22,7 @@
     /*BARRA LATERAL*/
     #lateral{
         width: 20%;
+        margin-left: 4%; 
     }
 
     #lateral #login input[type="submit"],
@@ -33,9 +34,18 @@
 
 
     /*FOOTER*/
+
+    #footer .footer{
+        display: block;
+        width: 90%;
+        height: 430px;
+        margin: 0px auto;
+        margin-top: 45px;
+    }
+
     #footer .footer h4{
-        font-size: 31px;
-        width: 70%;
+        
+        width: 80%;
        
     }
 
@@ -48,7 +58,7 @@
 
     #footer #location iframe{
         
-        width: 70%;
+        width: 80%;
         
     }
 }
@@ -56,6 +66,21 @@
 
 
 @media (max-width: 1110px){
+
+    /*CARDS*/
+    #cards .card .category{
+        font-size: 18px;
+    }
+    
+    #cards .card .description{
+        font-size: 14px;
+    }
+
+
+
+
+    /*LATERAL*/ 
+
     #lateral input[type="text"]{
         width: 80%; 
     }
@@ -63,5 +88,16 @@
     #lateral #login input[type="email"],
     #lateral #login input[type="password"]{
         width: 73%;
+    }
+
+
+
+
+
+
+    /*FOOTER*/
+    #footer .footer h4{
+        font-size: 31px;
+       
     }
 }

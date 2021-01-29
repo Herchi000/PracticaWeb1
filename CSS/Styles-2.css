@@ -249,6 +249,7 @@ body{
 	font-family: trebuchet;
 	color: #00538C;
 	width: 70%;
+	height: 330px;
 	margin: 0% auto;
 }
 
@@ -268,6 +269,10 @@ body{
 
 #cards .card:first-child{
 	margin-left: 0px;
+}
+
+#cards .card:last-child{
+	margin-right: 0px;
 }
 
 #cards .card .icon{
@@ -339,6 +344,11 @@ body{
 		transform: translateX(0%);
 	}
 }
+
+
+
+
+
 
 
 /*INICIO DE LA BARRA LATERAL*/
@@ -508,7 +518,7 @@ body{
 	height: 245px;
 	background-color: white;
 	box-shadow: 0px 5px 8px #ccc;
-	margin-left: 65px;
+	margin: 0px auto;
 	margin-top: 10px;
 }
 
@@ -541,10 +551,7 @@ body{
 	background-color: white;
 	border: 1px solid #ccc;
 	box-shadow: 0px 5px 8px #ccc;
-	margin: 10px;
-	margin-left: 40px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 20px auto;
 }
 
 #social div .overlay{
@@ -748,7 +755,7 @@ body{
 #footer .footer{
 	display: block;
 	width: 85%;
-	height: auto;
+	height: 430px;
 	margin: 0px auto;
 	margin-top: 45px;
 }
@@ -771,8 +778,8 @@ body{
 #footer .footer .elementosFooter{
 	display: block;
 	float: left;
-	width: 30%;
-	margin-left: 30px;
+	width: 32%;
+	margin: 0px 1%;
 	overflow: hidden;
 }
 

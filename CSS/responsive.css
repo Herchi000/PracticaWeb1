@@ -27,10 +27,15 @@
 
     #lateral #login input[type="submit"],
     #lateral #login input[type="reset"]{
+        width: 32%;
+        margin-left: 11%;
         padding: 0px;
     }
 
-
+    #social div .overlay{
+        margin-left: 5%;
+        font-size: 13px;
+    }
 
 
     /*FOOTER*/
@@ -53,7 +58,6 @@
     #footer #extra #browser img{
         margin: 0px 3px;
         width: 40px;
-        height: 40px;
     }
 
     #footer #location iframe{
@@ -66,8 +70,45 @@
 
 
 @media (max-width: 1110px){
+    /*HEADER*/
+    #cabecera{
+        width: 100%;
+        height: 60px;
+    }
+
+    .wrap #logo{
+        height: 44px;
+    }
+
+    .wrap #logo #gear{
+        margin-top: 3px;
+    }
+
+    .wrap #logo h3{
+        margin-top: 0;
+    }
+
+    .wrap #menu a{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+    /*BANNER*/
+    #general section #banner{
+        height: 80px;
+    }
+
+    #general section #banner h1{
+        line-height: 90px;
+    }
+
 
     /*CARDS*/
+    #cards .card{
+        margin: 40px 1.6% 10px; 
+    }
+
     #cards .card .category{
         font-size: 18px;
     }
@@ -80,6 +121,9 @@
 
 
     /*LATERAL*/ 
+    #lateral h3{
+        font-size: 25px;
+    }
 
     #lateral input[type="text"]{
         width: 80%; 
@@ -96,8 +140,17 @@
 
 
     /*FOOTER*/
+    #footer{
+        height: 440px;
+    }
+
     #footer .footer h4{
         font-size: 31px;
        
+    }
+
+    #footer #extra #browser img{
+        margin: 0px 1px;
+        width: 35px;
     }
 }

@@ -134,6 +134,22 @@
         width: 73%;
     }
 
+    #lateral #login input[type="submit"],
+    #lateral #login input[type="reset"]{
+        width: 36%;
+        margin-left: 9%;
+        padding: 0px;
+    }
+
+    #lateral #social{
+        width: 70%;
+    }
+
+    #social div .overlay{
+        margin-left: 6%;
+        font-size: 10px;
+        height: 10px;
+    }
 
 
 
@@ -152,5 +168,39 @@
     #footer #extra #browser img{
         margin: 0px 1px;
         width: 35px;
+    }
+}
+
+
+@media (max-width: 890px){
+    /*CARDS*/
+    #cards{
+        height: 205px;
+    }
+
+    #cards .card{
+        height: 160px;
+        margin-top: 35px;
+    }
+
+    #cards .card .category{
+        font-size: 15px;
+        margin-top: 21px;
+    }
+
+    #cards .card .description{
+        display: none;
+    }
+
+
+
+
+    /*LATERAL*/
+    #lateral{
+	    margin-top: 10px;
+    }
+
+    #cuerpo{
+        margin-top: 10px;
     }
 }

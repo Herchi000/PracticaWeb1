@@ -172,10 +172,24 @@
 }
 
 
+
+
 @media (max-width: 890px){
+    /*BANNER*/
+    #general section #banner{
+        height: 70px;
+    }
+
+    #general section #banner h1{
+        font-size: 30px;
+        line-height: 75px;
+        word-spacing: 10px;
+    }
+
+
     /*CARDS*/
     #cards{
-        height: 205px;
+        height: auto;
     }
 
     #cards .card{
@@ -200,7 +214,56 @@
 	    margin-top: 10px;
     }
 
+    #lateral h3{
+        font-size: 20px;
+    }
+
+    #lateral #login input[type="reset"]{
+        display: none;
+    }
+
+    #lateral #login input[type="submit"]{
+        width: 60%;
+        margin: 15px auto;
+        float: none;
+    }
+
+    #lateral #login a{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    /************/
+
+    
+    
+    #lateral #social a{
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    /***************/
+
+
+    #social div .overlay{
+        display: none;
+    }
+
+
+
+
+
+
+    /*CUERPO*/
+
     #cuerpo{
         margin-top: 10px;
+    }
+
+
+    /*FOOTER*/
+    #footer .footer h4 {
+        font-size: 25px;
     }
 }
